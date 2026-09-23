@@ -1,0 +1,49 @@
+TEST MATRIX - PERTEMUAN 5
+
+1. Load form
+Status: PASS
+Keterangan: registration.php berhasil dibuka dan form tampil.
+
+2. Required field
+Status: PASS
+Keterangan: Form menolak pengiriman ketika field wajib kosong.
+
+3. Email format
+Status: PASS
+Keterangan: Email tidak valid seperti "abc" ditolak oleh browser.
+
+4. Minlength nama
+Status: PASS
+Keterangan: Nama dengan panjang 2 karakter ditolak.
+
+5. GET experiment
+Status: PASS
+Keterangan: Data form terlihat pada URL ketika method diubah sementara menjadi GET.
+
+6. POST
+Status: PASS
+Keterangan: Data dikirim ke process-registration.php tanpa tampil sebagai query pada URL.
+
+7. Radio
+Status: PASS
+Keterangan: Pilihan jenis peserta tampil pada hasil pendaftaran.
+
+8. Checkbox
+Status: PASS
+Keterangan: Dua pilihan minat dapat dikirim dan ditampilkan bersama.
+
+9. Textarea
+Status: PASS
+Keterangan: Catatan tambahan tampil pada hasil pendaftaran.
+
+10. Hidden source
+Status: PASS
+Keterangan: Nilai source week-05 berhasil dikirim.
+
+11. Mobile
+Status: PASS
+Keterangan: Form tampil satu kolom pada lebar sekitar 360 px dan dapat di-scroll.
+
+12. Navigation
+Status: PASS
+Keterangan: Navigasi Beranda, Katalog, dan Daftar Kursus dapat digunakan.
