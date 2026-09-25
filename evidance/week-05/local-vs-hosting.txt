@@ -1,0 +1,14 @@
+LOCAL VS HOSTING
+
+Local:
+Website dijalankan menggunakan Laragon pada komputer sendiri.
+Alamat website:
+http://localhost/kursusku-prototype/
+
+Hosting:
+Website dijalankan pada server hosting sehingga dapat diakses melalui internet.
+File project diunggah ke server hosting dan domain/link hosting digunakan untuk membuka website.
+
+Kesimpulan:
+Pada tahap pengembangan dan pengujian, project KursusKu dijalankan secara lokal menggunakan Laragon.
+Tahap hosting dilakukan setelah project selesai dan siap dipublikasikan.
