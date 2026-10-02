@@ -1,0 +1,11 @@
+TEST MATRIX - KURSUSKU WEEK 06
+
+No | Skenario | Input | Hasil yang Diharapkan | Status
+1 | Pilih Mahasiswa | PHP Dasar | Diskon 10%, Total Rp225.000 | PASS
+2 | Pilih Guru | PHP Dasar | Diskon 15%, Total Rp212.500 | PASS
+3 | Pilih Umum | PHP Dasar | Diskon 5%, Total Rp237.500 | PASS
+4 | Checkbox satu pilihan | Web Development | Minat tampil sesuai pilihan | PASS
+5 | Checkbox beberapa pilihan | Web Development, Programming | Semua pilihan tampil | PASS
+6 | Checkbox tidak dipilih | Tidak ada | Tampil "Tidak ada pilihan" | PASS
+7 | Pilihan kursus | Laravel Fundamental | Kursus tampil sesuai pilihan | PASS
+8 | History dummy | Data array | Data tampil menggunakan foreach | PASS
