@@ -464,3 +464,65 @@ button:hover {
     border-radius: 6px;
     font-weight: bold;
 }
+
+css
+/* Server Time */
+.server-time-card {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #ffffff;
+    border: 2px solid #008577;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.server-time-card h1 {
+    margin-bottom: 10px;
+    color: #00695c;
+    font-size: 28px;
+}
+
+.server-time-card .time-label {
+    color: #666666;
+    font-size: 15px;
+}
+
+.server-time-card .time-value {
+    margin: 20px 0;
+    padding: 18px;
+    background: #e0f2f1;
+    border-radius: 12px;
+    color: #00695c;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.server-time-card .date-value {
+    margin-bottom: 20px;
+    color: #444444;
+    font-size: 17px;
+}
+
+.server-time-card .button-row {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+    .server-time-card {
+        margin: 20px 12px;
+        padding: 20px;
+    }
+
+    .server-time-card h1 {
+        font-size: 24px;
+    }
+
+    .server-time-card .time-value {
+        font-size: 26px;
+    }
+}
