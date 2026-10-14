@@ -1,5 +1,10 @@
 <?php
 
+if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+    header('Location: registration.php');
+    exit;
+}
+
 function e(string $value): string
 {
     return htmlspecialchars($value, ENT_QUOTES, 'UTF-8');

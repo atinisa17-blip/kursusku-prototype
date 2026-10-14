@@ -212,7 +212,7 @@ $courses = [
                 <label>
                     <input
                         type="checkbox"
-                        name="interest[]"
+                        name="interests[]"
                         value="Web Development"
                     >
                     Web Development
@@ -221,7 +221,7 @@ $courses = [
                 <label>
                     <input
                         type="checkbox"
-                        name="interest[]"
+                        name="interests[]"
                         value="Programming"
                     >
                     Programming
@@ -230,7 +230,7 @@ $courses = [
                 <label>
                     <input
                         type="checkbox"
-                        name="interest[]"
+                        name="interests[]"
                         value="Database"
                     >
                     Database

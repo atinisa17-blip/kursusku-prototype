@@ -55,6 +55,7 @@ function getDiscountPercent(string $participantType): int
     return 0;
 }
 
+
 function getLearningModeLabel(string $mode): string
 {
     switch ($mode) {
@@ -68,3 +69,8 @@ function getLearningModeLabel(string $mode): string
             return 'Tidak diketahui';
     }
 }
+
+echo "<div style='background:#fce4ec; color:#c2185b; padding:30px; margin:30px auto; max-width:400px; text-align:center; border-radius:20px; font-family:Arial;'>";
+echo "<h2>🌸 Hasil Format Tanggal</h2>";
+echo "<h1>" . formatTanggal("2026-09-15") . "</h1>";
+echo "</div>";

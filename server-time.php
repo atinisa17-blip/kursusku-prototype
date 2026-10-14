@@ -1,37 +1,25 @@
-
 <?php
 
-$serverTime = date('H:i:s');
-$serverDate = date('d-m-Y');
+declare(strict_types=1);
 
+date_default_timezone_set('Asia/Jakarta');
+$serverTime = date('Y-m-d H:i:s');
 ?>
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Waktu Server - KursusKu</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body class="utility-page">
-
-    <main class="server-time-card">
-        <h1>Waktu Server</h1>
-
-        <p class="time-label">Waktu saat ini berdasarkan server</p>
-
-        <div class="time-value">
-            <?= htmlspecialchars($serverTime) ?>
-        </div>
-
-        <p class="date-value">
-            Tanggal: <?= htmlspecialchars($serverDate) ?>
-        </p>
-
-        <div class="button-row">
-            <a href="index.php" class="button">Kembali ke Beranda</a>
-        </div>
-    </main>
-
+<main class="utility-card">
+    <span class="eyebrow">PERTEMUAN 2</span>
+    <h1>PHP Diproses oleh Server</h1>
+    <p class="server-time">Waktu server: <strong><?= htmlspecialchars($serverTime) ?></strong></p>
+    <p>Refresh halaman beberapa detik kemudian. Nilai berubah karena fungsi <code>date()</code> dijalankan ulang oleh PHP pada setiap request.</p>
+    <a class="button" href="index.php">Kembali ke Beranda</a>
+</main>
 </body>
 </html>
